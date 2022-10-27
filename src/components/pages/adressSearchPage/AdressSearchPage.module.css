@@ -1,0 +1,82 @@
+.search_page_container {
+  width: calc(100vw - 400px);
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.search_topic {
+  margin: 32px 0 16px 32px;
+  font-size: 26px;
+}
+.adress_topic {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 26px;
+  padding: 24px 0 16px 24px;
+}
+.closed {
+  display: none;
+}
+.query_text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin-left: 32px;
+  display: block;
+}
+.search_adress_input {
+  height: 70px;
+  width: 97%;
+  border: 3px solid #4f27bf;
+  border-radius: 10px;
+  font-size: 26px;
+  box-sizing: border-box;
+}
+.search_btn {
+  background: #4f27bf;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 26%;
+  height: 70px;
+  color: #ffffff;
+  border-color: #4f27bf;
+  font-size: 26px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.adresses_container {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(2, 0, 97, 0.25);
+  border-radius: 10px;
+  margin: 32px 32px 32px 32px;
+  width: 100%;
+}
+.adress_card {
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin: 0 0 0 24px;
+  padding: 16px 0;
+  border-top: 1px solid #d7d7d7;
+}
+.password_handler {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.search_form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 24px 0 32px 30px;
+}
+@media (max-width: 768px) {
+  .search_page_container {
+    width: 90vw;
+  }
+  .search_form {
+    flex-wrap: wrap;
+  }
+  .search_btn {
+    margin: 20px 0 0 0;
+  }
+}

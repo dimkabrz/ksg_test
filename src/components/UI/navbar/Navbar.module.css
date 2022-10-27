@@ -1,0 +1,33 @@
+.navbar {
+  height: 80px;
+  background-color: #4f27bf;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #ffffff;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navbar_left_container {
+  margin: 16px 0 16px 32px;
+  display: flex;
+  align-items: center;
+}
+.navbar_text {
+  margin-left: 24px;
+}
+.navbar_right_container {
+  display: flex;
+  align-items: center;
+  margin: 16px 32px 16px 0;
+}
+.navbar_userlogo {
+  margin-right: 16px;
+}
+.navbar_logo {
+  margin-right: 24px;
+}

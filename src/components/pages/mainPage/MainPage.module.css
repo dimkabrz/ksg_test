@@ -1,0 +1,25 @@
+.main_page_container {
+  width: calc(100vw - 400px);
+}
+.news_topic {
+  margin: 32px 0 16px 32px;
+}
+.news_title {
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin-left: 32px;
+}
+.main_page_text_container {
+  font-family: "Montserrat";
+  font-style: normal;
+  margin: 32px 32px 0 32px;
+}
+a {
+  cursor: pointer;
+  color: #002bc5;
+}
+@media (max-width: 768px) {
+  .main_page_container {
+    width: 100vw;
+  }
+}
