@@ -7,7 +7,7 @@
 - react-router-dom
 - classnames
 - prettier
-
+- axios
 ## Версия node
 
 - v16.14.2
